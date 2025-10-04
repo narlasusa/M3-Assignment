@@ -4,9 +4,9 @@ let coinFlip;
 
 // If the number is less than 0.5, it's 'Heads'. Otherwise, it's 'Tails'.
   if (randomNum < 0.5) {
-    coinFlip = 'Heads';
+    coinFlip = 'heads';
   } else {
-    coinFlip = 'Tails';
+    coinFlip = 'tails';
   }
  // alert("The coin landed on " + (randomNum ? 'Heads' : 'Tails'));
 
